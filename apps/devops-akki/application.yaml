@@ -1,0 +1,26 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: devops-akki
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/akashjaiswal36/CI-Nodejs.git
+    targetRevision: main
+    path: helm/devops-akki
+    helm:
+      valueFiles:
+        - values.yaml
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
