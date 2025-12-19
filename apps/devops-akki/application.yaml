@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/akashjaiswal36/CI-Nodejs.git
+    repoURL: https://github.com/akashjaiswal36/CD-GitOps.git
     targetRevision: main
     path: helm/devops-akki
     helm:
