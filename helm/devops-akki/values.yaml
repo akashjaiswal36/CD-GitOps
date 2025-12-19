@@ -9,9 +9,6 @@ service:
   type: LoadBalancer
   port: 80
 
-env:
-  APP_VERSION: "v1"
-  ENV: "local"
 
 resources:
   limits:
