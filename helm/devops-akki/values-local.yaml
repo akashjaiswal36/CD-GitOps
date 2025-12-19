@@ -1,0 +1,3 @@
+image:
+  repository: docker.io/ajs3ra8/devops-akki
+  tag: latest

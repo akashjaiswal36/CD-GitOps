@@ -1,8 +1,8 @@
-replicaCount: 3
+replicaCount: 2
 
 image:
-  repository: ajs3ra8/devops-akki
-  tag: f8303aa2bbbe0394e3f1bbca39a0869f64ae446f
+  repository: devops-akki
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:

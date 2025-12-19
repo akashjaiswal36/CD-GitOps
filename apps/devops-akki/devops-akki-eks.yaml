@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: devops-akki-eks
+  namespace: argocd
+spec:
+  destination:
+    server: https://<EKS-CLUSTER-ENDPOINT>
+    namespace: prod
+  source:
+    repoURL: https://github.com/akashjaiswal36/CD-GitOps.git
+    targetRevision: main
+    path: helm/devops-akki
+    helm:
+      valueFiles:
+        - values-eks.yaml
