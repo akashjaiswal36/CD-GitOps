@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: ajs3ra8/devops-akki
-  tag: fc1bb0150d3d54f452589c9bdbd884b230d1e6f6
+  tag: c575c737eb32856a525021f99d0d49dcf06cf708
   pullPolicy: IfNotPresent
 
 service:
