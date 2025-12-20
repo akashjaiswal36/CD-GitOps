@@ -1,6 +1,7 @@
 image:
   repository: ajs3ra8/devops-akki
   tag: latest
+  
 
 env:
   ENV: "local"
