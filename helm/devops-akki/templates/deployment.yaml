@@ -11,6 +11,9 @@ spec:
     metadata:
       labels:
         app: {{ include "devops-akki.name" . }}
+      annotations:
+        redeploy-timestamp: "{{ .Values.redeployTimestamp }}"
+
     spec:
       containers:
         - name: devops-akki
