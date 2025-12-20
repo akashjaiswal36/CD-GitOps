@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: devops-akki
-  tag: 380de44471e0ed697fc9b73ee6fa996dcaaf15c9
+  tag: dffcb2bb257151ff3129fce1ffebe72404d46da0
   imagePullPolicy: Always
 
 service:
