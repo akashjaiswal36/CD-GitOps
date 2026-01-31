@@ -4,6 +4,7 @@ metadata:
   name: devops-akki-eks
   namespace: argocd
 spec:
+  project: default
   destination:
     server: https://9EAC93CECEFD76BC62E340D33FD199F4.gr7.ap-south-1.eks.amazonaws.com
     namespace: prod
