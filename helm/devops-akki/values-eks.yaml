@@ -1,6 +1,6 @@
 image:
   repository: 178502900821.dkr.ecr.ap-south-1.amazonaws.com/devops-akki
-  tag: a5ab3c5a0368ea0aa0a01258cd7820a85c6d9e44
+  tag: 464ecccd376a639e2c233f6a5504a5d2463f6904
 
 env:
   ENV: "prod"
