@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    server: https://<EKS-CLUSTER-ENDPOINT>
+    server: https://583F3661A2C9F6BF1E9629F80A09C21F.gr7.ap-south-1.eks.amazonaws.com
     namespace: prod
   source:
     repoURL: https://github.com/akashjaiswal36/CD-GitOps.git
