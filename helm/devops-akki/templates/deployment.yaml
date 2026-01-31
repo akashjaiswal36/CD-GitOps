@@ -15,6 +15,7 @@ spec:
         redeploy-timestamp: "{{ .Values.redeployTimestamp }}"
 
     spec:
+      serviceAccountName: practice-sa
       containers:
         - name: devops-akki
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
