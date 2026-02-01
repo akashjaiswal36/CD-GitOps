@@ -1,6 +1,6 @@
 image:
   repository: 178502900821.dkr.ecr.ap-south-1.amazonaws.com/project-ecr-repo
-  tag: 93b44b1319f368bbf7eb62bee2c7c61043b04a43
+  tag: b8ef8bc606470cbf9c84d0b32177c0c59e5e1aa5
 
 env:
   ENV: "prod"
